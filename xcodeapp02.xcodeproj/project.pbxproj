@@ -12,6 +12,7 @@
 		315AE9DA205CB5E000F99E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315AE9D8205CB5E000F99E4B /* Main.storyboard */; };
 		315AE9DC205CB5E000F99E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315AE9DB205CB5E000F99E4B /* Assets.xcassets */; };
 		315AE9DF205CB5E000F99E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315AE9DD205CB5E000F99E4B /* LaunchScreen.storyboard */; };
+		31F4BD50206640B200DFB0DD /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4BD4F206640B200DFB0DD /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		315AE9DB205CB5E000F99E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315AE9DE205CB5E000F99E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315AE9E0205CB5E000F99E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F4BD4F206640B200DFB0DD /* TrueLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				315AE9D4205CB5E000F99E4B /* AppDelegate.swift */,
 				315AE9D6205CB5E000F99E4B /* ViewController.swift */,
 				315AE9D8205CB5E000F99E4B /* Main.storyboard */,
+				31F4BD4F206640B200DFB0DD /* TrueLoveViewController.swift */,
 				315AE9DB205CB5E000F99E4B /* Assets.xcassets */,
 				315AE9DD205CB5E000F99E4B /* LaunchScreen.storyboard */,
 				315AE9E0205CB5E000F99E4B /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				315AE9D7205CB5E000F99E4B /* ViewController.swift in Sources */,
 				315AE9D5205CB5E000F99E4B /* AppDelegate.swift in Sources */,
+				31F4BD50206640B200DFB0DD /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.borg.xcodeapp02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.borg.xcodeapp02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
